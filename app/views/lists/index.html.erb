@@ -1,0 +1,87 @@
+<div class="cover mb-4 d-flex align-items-center justify-content-center">
+  <div class="text-center text-white">
+    <h1>Save any kind of movies</h1>
+    <h3 class="typed-js" data-controller="typed-js"></h3>
+  </div>
+</div>
+<div class="container py-5">
+  <div class="d-flex align-items-center justify-content-between mb-3">
+    <h3 class="mb-0">My Lists</h3>
+    <%= link_to "Create a movie list", new_list_path, class: "btn btn-flat" %>
+  </div>
+  <div class="row">
+    <% @lists.each do |list| %>
+      <div class="co-12 col-sm-6 col-md-4">
+        <%= link_to list_path(list), class: "text-decoration-none" do %>
+          <div class="card-category" data-aos="zoom-in" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path("list_background.jpg") %>)">
+            <%= list.name %>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+
+<%= "Mussum Ipsum, cacilds vidis litro abertis. "%>
+<%= "Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis."%>
+<%= "In elementis mé pra quem é amistosis quis leo.Delegadis gente finis,"%>
+<%= "bibendum egestas augue arcu ut est.Per aumento de cachacis, eu reclamis."%>
+
+<%= "Manduma pindureta quium dia nois paga.Leite de capivaris," %>
+<%= "leite de mula manquis sem cabeça.Mauris nec dolor in eros commodo tempor. "%>
+<%= "Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!"%>
+
+<%= "Si num tem leite então bota uma pinga aí cumpadi!Manduma pindureta quium "%>
+<%= "dia nois paga.Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.Paisis, filhis, espiritis santis."%>
+
+<%= "Em pé sem cair, deitado sem dormir, sentado sem cochilar e" %>
+<%= "fazendo pose.Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo,"%>
+<%= "vitae iaculis nisl.Diuretics paradis num copo é motivis de denguis.In elementis mé pra quem é amistosis quis leo." %>
+
+<%= "Mussum Ipsum, cacilds vidis litro abertis. "%>
+<%= "Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis."%>
+<%= "In elementis mé pra quem é amistosis quis leo.Delegadis gente finis,"%>
+<%= "bibendum egestas augue arcu ut est.Per aumento de cachacis, eu reclamis."%>
+
+<%= "Manduma pindureta quium dia nois paga.Leite de capivaris," %>
+<%= "leite de mula manquis sem cabeça.Mauris nec dolor in eros commodo tempor. "%>
+<%= "Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!"%>
+
+<%= "Si num tem leite então bota uma pinga aí cumpadi!Manduma pindureta quium "%>
+<%= "dia nois paga.Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.Paisis, filhis, espiritis santis."%>
+
+<%= "Em pé sem cair, deitado sem dormir, sentado sem cochilar e" %>
+<%= "fazendo pose.Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo,"%>
+<%= "vitae iaculis nisl.Diuretics paradis num copo é motivis de denguis.In elementis mé pra quem é amistosis quis leo." %>
+
+<%= "Mussum Ipsum, cacilds vidis litro abertis. "%>
+<%= "Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis."%>
+<%= "In elementis mé pra quem é amistosis quis leo.Delegadis gente finis,"%>
+<%= "bibendum egestas augue arcu ut est.Per aumento de cachacis, eu reclamis."%>
+
+<%= "Manduma pindureta quium dia nois paga.Leite de capivaris," %>
+<%= "leite de mula manquis sem cabeça.Mauris nec dolor in eros commodo tempor. "%>
+<%= "Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!"%>
+
+<%= "Si num tem leite então bota uma pinga aí cumpadi!Manduma pindureta quium "%>
+<%= "dia nois paga.Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.Paisis, filhis, espiritis santis."%>
+
+<%= "Em pé sem cair, deitado sem dormir, sentado sem cochilar e" %>
+<%= "fazendo pose.Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo,"%>
+<%= "vitae iaculis nisl.Diuretics paradis num copo é motivis de denguis.In elementis mé pra quem é amistosis quis leo." %>
+<%= "Mussum Ipsum, cacilds vidis litro abertis. "%>
+<%= "Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis."%>
+<%= "In elementis mé pra quem é amistosis quis leo.Delegadis gente finis,"%>
+<%= "bibendum egestas augue arcu ut est.Per aumento de cachacis, eu reclamis."%>
+
+<%= "Manduma pindureta quium dia nois paga.Leite de capivaris," %>
+<%= "leite de mula manquis sem cabeça.Mauris nec dolor in eros commodo tempor. "%>
+<%= "Aenean aliquam molestie leo, vitae iaculis nisl.Quem manda na minha terra sou euzis!"%>
+
+<%= "Si num tem leite então bota uma pinga aí cumpadi!Manduma pindureta quium "%>
+<%= "dia nois paga.Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.Paisis, filhis, espiritis santis."%>
+
+<%= "Em pé sem cair, deitado sem dormir, sentado sem cochilar e" %>
+<%= "fazendo pose.Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo,"%>
+<%= "vitae iaculis nisl.Diuretics paradis num copo é motivis de denguis.In elementis mé pra quem é amistosis quis leo." %>
