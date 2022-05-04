@@ -13,9 +13,8 @@ puts "Cleaning up database..."
 Movie.destroy_all
 puts "Database cleaned"
 
-url = "http://tmdb.lewagon.com/movie/popular"
+url = "http://tmdb.lewagon.com/movie/top_rated"
 
-  #puts "Importing movies from page #{i + 1}"
   movies = JSON.parse(URI.open("#{url}").read)['results']
   movies.each do |movie|
     puts "Creating #{movie['title']}"
@@ -27,5 +26,5 @@ url = "http://tmdb.lewagon.com/movie/popular"
       rating: movie['vote_average']
     )
   end
-
+end
 puts "Movies created"
